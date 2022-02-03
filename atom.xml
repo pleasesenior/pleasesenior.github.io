@@ -6,7 +6,7 @@
   <link href="https://pleasesenior.github.io/atom.xml" rel="self"/>
   
   <link href="https://pleasesenior.github.io/"/>
-  <updated>2022-02-03T04:25:23.462Z</updated>
+  <updated>2022-02-03T12:20:20.614Z</updated>
   <id>https://pleasesenior.github.io/</id>
   
   <author>
@@ -17,44 +17,18 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>testBlog</title>
-    <link href="https://pleasesenior.github.io/2022/02/03/testblog-1/"/>
-    <id>https://pleasesenior.github.io/2022/02/03/testblog-1/</id>
-    <published>2022-02-03T04:25:23.000Z</published>
-    <updated>2022-02-03T04:25:23.462Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>testBlog</title>
-    <link href="https://pleasesenior.github.io/2022/02/03/testblog/"/>
-    <id>https://pleasesenior.github.io/2022/02/03/testblog/</id>
-    <published>2022-02-03T02:55:18.000Z</published>
-    <updated>2022-02-03T02:55:18.620Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://pleasesenior.github.io/2022/02/03/hello-world/"/>
-    <id>https://pleasesenior.github.io/2022/02/03/hello-world/</id>
-    <published>2022-02-03T02:50:48.647Z</published>
-    <updated>2022-02-03T02:50:48.647Z</updated>
+    <title>图书管理系统</title>
+    <link href="https://pleasesenior.github.io/2022/02/03/tu-shu-guan-li-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/02/03/tu-shu-guan-li-xi-tong/</id>
+    <published>2022-02-03T01:25:00.000Z</published>
+    <updated>2022-02-03T12:20:20.614Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;图书管理系统&quot;&gt;&lt;a href=&quot;#图书管理系统&quot; class=&quot;headerlink&quot; title=&quot;图书管理系统&quot;&gt;&lt;/a&gt;图书管理系统&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
         
       
     
