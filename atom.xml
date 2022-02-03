@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   
-  <link href="http://pleasesenior.com/atom.xml" rel="self"/>
+  <link href="https://pleasesenior.github.io/atom.xml" rel="self"/>
   
-  <link href="http://pleasesenior.com/"/>
+  <link href="https://pleasesenior.github.io/"/>
   <updated>2022-02-03T04:25:23.462Z</updated>
-  <id>http://pleasesenior.com/</id>
+  <id>https://pleasesenior.github.io/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>testBlog</title>
-    <link href="http://pleasesenior.com/2022/02/03/testblog-1/"/>
-    <id>http://pleasesenior.com/2022/02/03/testblog-1/</id>
+    <link href="https://pleasesenior.github.io/2022/02/03/testblog-1/"/>
+    <id>https://pleasesenior.github.io/2022/02/03/testblog-1/</id>
     <published>2022-02-03T04:25:23.000Z</published>
     <updated>2022-02-03T04:25:23.462Z</updated>
     
@@ -31,8 +31,8 @@
   
   <entry>
     <title>testBlog</title>
-    <link href="http://pleasesenior.com/2022/02/03/testblog/"/>
-    <id>http://pleasesenior.com/2022/02/03/testblog/</id>
+    <link href="https://pleasesenior.github.io/2022/02/03/testblog/"/>
+    <id>https://pleasesenior.github.io/2022/02/03/testblog/</id>
     <published>2022-02-03T02:55:18.000Z</published>
     <updated>2022-02-03T02:55:18.620Z</updated>
     
@@ -44,8 +44,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://pleasesenior.com/2022/02/03/hello-world/"/>
-    <id>http://pleasesenior.com/2022/02/03/hello-world/</id>
+    <link href="https://pleasesenior.github.io/2022/02/03/hello-world/"/>
+    <id>https://pleasesenior.github.io/2022/02/03/hello-world/</id>
     <published>2022-02-03T02:50:48.647Z</published>
     <updated>2022-02-03T02:50:48.647Z</updated>
     
