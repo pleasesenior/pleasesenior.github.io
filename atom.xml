@@ -6,7 +6,7 @@
   <link href="https://pleasesenior.github.io/atom.xml" rel="self"/>
   
   <link href="https://pleasesenior.github.io/"/>
-  <updated>2022-02-04T05:39:41.152Z</updated>
+  <updated>2022-02-04T06:34:07.354Z</updated>
   <id>https://pleasesenior.github.io/</id>
   
   <author>
@@ -17,18 +17,415 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>漫威主题的炫酷博客</title>
+    <link href="https://pleasesenior.github.io/2022/02/04/bo-ke-guan-li-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/02/04/bo-ke-guan-li-xi-tong/</id>
+    <published>2022-02-04T01:25:00.000Z</published>
+    <updated>2022-02-04T06:34:07.354Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;博客系统&quot;&gt;&lt;a href=&quot;#博客系统&quot; class=&quot;headerlink&quot; title=&quot;博客系统&quot;&gt;&lt;/a&gt;博客系统&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Markdown" scheme="https://pleasesenior.github.io/categories/Markdown/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="博客" scheme="https://pleasesenior.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>洗车预约系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/11/xi-che-yu-yue-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/11/xi-che-yu-yue-xi-tong/</id>
+    <published>2022-01-11T01:25:00.000Z</published>
+    <updated>2022-02-04T07:48:37.229Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="洗车预约" scheme="https://pleasesenior.github.io/tags/%E6%B4%97%E8%BD%A6%E9%A2%84%E7%BA%A6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>图书管理系统</title>
-    <link href="https://pleasesenior.github.io/2022/02/03/tu-shu-guan-li-xi-tong/"/>
-    <id>https://pleasesenior.github.io/2022/02/03/tu-shu-guan-li-xi-tong/</id>
-    <published>2022-02-03T01:25:00.000Z</published>
-    <updated>2022-02-04T05:39:41.152Z</updated>
+    <link href="https://pleasesenior.github.io/2022/01/10/tu-shu-guan-li-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/10/tu-shu-guan-li-xi-tong/</id>
+    <published>2022-01-10T01:25:00.000Z</published>
+    <updated>2022-02-04T07:46:00.444Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;图书管理系统&quot;&gt;&lt;a href=&quot;#图书管理系统&quot; class=&quot;headerlink&quot; title=&quot;图书管理系统&quot;&gt;&lt;/a&gt;图书管理系统&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="图书管理" scheme="https://pleasesenior.github.io/tags/%E5%9B%BE%E4%B9%A6%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>停车场管理系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/09/ting-che-chang-guan-li-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/09/ting-che-chang-guan-li-xi-tong/</id>
+    <published>2022-01-09T01:25:00.000Z</published>
+    <updated>2022-02-04T07:49:08.735Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="停车场" scheme="https://pleasesenior.github.io/tags/%E5%81%9C%E8%BD%A6%E5%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>宿舍管理系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/08/su-she-guan-li-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/08/su-she-guan-li-xi-tong/</id>
+    <published>2022-01-08T01:25:00.000Z</published>
+    <updated>2022-02-04T07:48:44.930Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="宿舍管理" scheme="https://pleasesenior.github.io/tags/%E5%AE%BF%E8%88%8D%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实验室预定系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/07/shi-yan-shi-yu-ding-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/07/shi-yan-shi-yu-ding-xi-tong/</id>
+    <published>2022-01-07T01:25:00.000Z</published>
+    <updated>2022-02-04T07:45:23.291Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="实验室预定" scheme="https://pleasesenior.github.io/tags/%E5%AE%9E%E9%AA%8C%E5%AE%A4%E9%A2%84%E5%AE%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>旧衣捐赠系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/06/jiu-yi-juan-zeng-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/06/jiu-yi-juan-zeng-xi-tong/</id>
+    <published>2022-01-06T01:25:00.000Z</published>
+    <updated>2022-02-04T07:45:10.063Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="旧衣捐赠" scheme="https://pleasesenior.github.io/tags/%E6%97%A7%E8%A1%A3%E6%8D%90%E8%B5%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>家教预约系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/05/jia-jiao-yu-yue-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/05/jia-jiao-yu-yue-xi-tong/</id>
+    <published>2022-01-05T01:25:00.000Z</published>
+    <updated>2022-02-04T07:45:00.668Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="家教" scheme="https://pleasesenior.github.io/tags/%E5%AE%B6%E6%95%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>会议室预定系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/04/hui-yi-shi-yu-ding-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/04/hui-yi-shi-yu-ding-xi-tong/</id>
+    <published>2022-01-04T01:25:00.000Z</published>
+    <updated>2022-02-04T07:48:07.168Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="会议室预定" scheme="https://pleasesenior.github.io/tags/%E4%BC%9A%E8%AE%AE%E5%AE%A4%E9%A2%84%E5%AE%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>画师约稿平台</title>
+    <link href="https://pleasesenior.github.io/2022/01/03/hua-shi-yue-gao-ping-tai/"/>
+    <id>https://pleasesenior.github.io/2022/01/03/hua-shi-yue-gao-ping-tai/</id>
+    <published>2022-01-03T01:25:00.000Z</published>
+    <updated>2022-02-04T07:44:30.223Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="画师约稿平台" scheme="https://pleasesenior.github.io/tags/%E7%94%BB%E5%B8%88%E7%BA%A6%E7%A8%BF%E5%B9%B3%E5%8F%B0/"/>
+    
+    <category term="兼职" scheme="https://pleasesenior.github.io/tags/%E5%85%BC%E8%81%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分布式爬虫系统</title>
+    <link href="https://pleasesenior.github.io/2022/01/02/fen-bu-shi-pa-chong-xi-tong/"/>
+    <id>https://pleasesenior.github.io/2022/01/02/fen-bu-shi-pa-chong-xi-tong/</id>
+    <published>2022-01-02T01:25:00.000Z</published>
+    <updated>2022-02-04T07:43:53.198Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="分布式" scheme="https://pleasesenior.github.io/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+    
+    <category term="爬虫" scheme="https://pleasesenior.github.io/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学生代课辅导平台</title>
+    <link href="https://pleasesenior.github.io/2022/01/01/da-xue-sheng-dai-ke-fu-dao-ping-tai/"/>
+    <id>https://pleasesenior.github.io/2022/01/01/da-xue-sheng-dai-ke-fu-dao-ping-tai/</id>
+    <published>2022-01-01T01:25:00.000Z</published>
+    <updated>2022-02-04T07:43:46.939Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="https://pleasesenior.github.io/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="https://pleasesenior.github.io/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="https://pleasesenior.github.io/tags/Vue/"/>
+    
+    <category term="家教" scheme="https://pleasesenior.github.io/tags/%E5%AE%B6%E6%95%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://pleasesenior.github.io/1984/01/24/crm-guan-li-xi-tong/"/>
+    <id>https://pleasesenior.github.io/1984/01/24/crm-guan-li-xi-tong/</id>
+    <published>1984-01-24T08:00:00.000Z</published>
+    <updated>2022-02-04T07:46:39.560Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;keywords:    毕业设计 计算机 计算机毕业设计 Spring SpringBoot Vue SSM 前后端分离 web系统 Java MySQL 管理系统 论文 毕设 作品 JSP&lt;br&gt;title: CRM系统（客户关系管理系统）&lt;br&gt;date:</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://pleasesenior.github.io/1984/01/24/zi-zhu-shou-huo-xi-tong/"/>
+    <id>https://pleasesenior.github.io/1984/01/24/zi-zhu-shou-huo-xi-tong/</id>
+    <published>1984-01-24T08:00:00.000Z</published>
+    <updated>2022-02-04T07:46:30.054Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;keywords:    毕业设计 计算机 计算机毕业设计 Spring SpringBoot Vue SSM 前后端分离 web系统 Java MySQL 管理系统 论文 毕设 作品 JSP&lt;br&gt;title: 自助售货系统&lt;br&gt;date:</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://pleasesenior.github.io/1984/01/24/zai-xian-xuan-ke-xi-tong/"/>
+    <id>https://pleasesenior.github.io/1984/01/24/zai-xian-xuan-ke-xi-tong/</id>
+    <published>1984-01-24T08:00:00.000Z</published>
+    <updated>2022-02-04T07:46:18.062Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;keywords: 毕业设计 计算机 计算机毕业设计 Spring SpringBoot Vue SSM 前后端分离 web系统 Java MySQL 管理系统 论文 毕设 作品 JSP&lt;br&gt;title: 在线选课系统&lt;br&gt;date: 2022-01-12</summary>
         
       
     
