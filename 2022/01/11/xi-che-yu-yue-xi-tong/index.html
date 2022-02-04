@@ -30,9 +30,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="拜托了学长" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 6.0.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="拜托了学长" type="application/atom+xml">
 </head>
 
 
@@ -501,6 +501,8 @@
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​        本期项目是洗车预约系统，主要包括数据监控大盘、洗车店管理、洗车项目管理、预约管理、评价管理、我的预约、日志管理、用户管理、角色管理。以企业级的开发标准来完成整个前后端代码，无论是用来作为毕业设计还是拿来学习，相信对初学者都会有很大帮助。</p>
+<iframe src="//player.bilibili.com/player.html?bvid=BV1Fq4y1d7Na&amp;page=1&amp;high_quality=1&amp;danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%" height="500"> </iframe>
+
 <h2 id="功能设计"><a href="#功能设计" class="headerlink" title="功能设计"></a>功能设计</h2><p><img src="https://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20210930163211108.png"></p>
 <h3 id="领域模型"><a href="#领域模型" class="headerlink" title="领域模型"></a>领域模型</h3><ul>
 <li><p>DO（DataObject）：与数据库表结构一一对应，通过DAO层向上传输数据源对象</p>
@@ -561,13 +563,7 @@
 <p>页面不存在时提示页面</p>
 <p><img src="https://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20210926225620213-20220204153234734.png"></p>
 <p><strong>普通读者登录</strong></p>
-<p>​        系统默认会创建两个角色，一个是超管角色，另一个则是普通用户角色（当然角色大家可以按前面说的自定义）。普通用户登录，比如停车管理菜单，普通用户就只有查询的权限，其他的新增、编辑、删除、导出和出库权限都没有。截图如下：</p>
-<p><img src="https://gitee.com/pleasesenior/document/raw/markdown-picture/2020/image-20210815083029659.png" alt="image-20210815083029659"></p>
-<p><strong>个人信息修改</strong></p>
-<p><img src="https://gitee.com/pleasesenior/document/raw/markdown-picture/2020/image-20201226090334871.png" alt="image-20201226090334871"></p>
-<p><strong>密码修改</strong></p>
-<p>​        管理员创建完用户之后的默认密码是“123456”，用户可以登录系统自己修改密码</p>
-<p><img src="https://gitee.com/pleasesenior/document/raw/markdown-picture/2020/image-20210815083303801.png" alt="image-20210815083303801">    </p>
+<p>​        系统默认会创建两个角色，一个是超管角色，另一个则是普通用户角色（当然角色大家可以按前面说的自定义）。普通用户登录，比如停车管理菜单，普通用户就只有查询的权限，其他的新增、编辑、删除、导出和出库权限都没有。截图如下</p>
 <h3 id="权限设计"><a href="#权限设计" class="headerlink" title="权限设计"></a>权限设计</h3><p>​        权限基于security和spring-session实现。权限可以分为认证和授权，认证其实就是登录，用户登录时会进行账号密码的校验，校验成功后会，会把session存入redis中。授权指的是用户是否拥有访问后端资源的权限，每个新用户在创建后都会分配角色，角色其实就是一个权限集合，这里的权限可以理解为访问后端一个个接口（资源）的权限。</p>
 <p>​        这里权限设计的非常灵活，细粒度到按钮级别，比如新增、删除、修改、查询、借阅动作，普通用户可能就只有查询权限，管理员则拥有新增、删除、修改的权限。普通用户即使通过接口直接访问后端的修改或者删除接口，后端也会返回授权失败错误，因为后端每个需要权限的接口都打了权限标识，只有拥有资源权限用户才能访问。</p>
 <p>​        比如下面的车辆修改接口，只有拥有“CAR_UPDATE”这个权限标识的用户才能访问这个接口，否则返回“未授权”的错误。</p>
@@ -797,18 +793,18 @@
 </style>
 
 <div id="reward">
-    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+    <a href="#rewardModal" class="waves-effect waves-light btn reward-link modal-trigger waves-effect waves-light red">获取源码</a>
 
     <!-- Modal Structure -->
     <div id="rewardModal" class="modal">
         <div class="modal-content">
             <a class="close modal-close"><i class="fas fa-times"></i></a>
-            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <h4 class="reward-title">联系学长获取源码(有偿)</h4>
             <div class="reward-content">
                 <div class="reward-tabs">
                     <ul class="tabs row">
-                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
-                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">学长 QQ</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">学长微信</a></li>
                     </ul>
                     <div id="alipay">
                         <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
