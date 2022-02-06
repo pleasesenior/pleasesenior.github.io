@@ -6,7 +6,7 @@
   <link href="http://pleasesenior.com/atom.xml" rel="self"/>
   
   <link href="http://pleasesenior.com/"/>
-  <updated>2022-02-06T10:15:01.295Z</updated>
+  <updated>2022-02-06T12:42:41.104Z</updated>
   <id>http://pleasesenior.com/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>宠物领养系统</title>
+    <link href="http://pleasesenior.com/2022/02/06/chong-wu-ling-yang/"/>
+    <id>http://pleasesenior.com/2022/02/06/chong-wu-ling-yang/</id>
+    <published>2022-02-06T12:17:00.000Z</published>
+    <updated>2022-02-06T12:42:41.104Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="http://pleasesenior.com/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://pleasesenior.com/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="http://pleasesenior.com/tags/Vue/"/>
+    
+    <category term="宠物领养" scheme="http://pleasesenior.com/tags/%E5%AE%A0%E7%89%A9%E9%A2%86%E5%85%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小区停车管理系统</title>
+    <link href="http://pleasesenior.com/2022/02/06/xiao-qu-ting-che/"/>
+    <id>http://pleasesenior.com/2022/02/06/xiao-qu-ting-che/</id>
+    <published>2022-02-06T11:25:00.000Z</published>
+    <updated>2022-02-06T12:12:04.093Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="http://pleasesenior.com/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://pleasesenior.com/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="http://pleasesenior.com/tags/Vue/"/>
+    
+    <category term="停车" scheme="http://pleasesenior.com/tags/%E5%81%9C%E8%BD%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>漫威主题的炫酷个人博客系统</title>
@@ -396,11 +454,11 @@
   </entry>
   
   <entry>
-    <title>分布式爬虫系统</title>
+    <title>吊炸天的分布式爬虫系统</title>
     <link href="http://pleasesenior.com/2022/01/02/fen-bu-shi-pa-chong-xi-tong/"/>
     <id>http://pleasesenior.com/2022/01/02/fen-bu-shi-pa-chong-xi-tong/</id>
     <published>2022-01-02T01:25:00.000Z</published>
-    <updated>2022-02-06T10:48:47.673Z</updated>
+    <updated>2022-02-06T12:43:52.514Z</updated>
     
     
       
