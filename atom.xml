@@ -6,7 +6,7 @@
   <link href="http://pleasesenior.com/atom.xml" rel="self"/>
   
   <link href="http://pleasesenior.com/"/>
-  <updated>2022-02-04T14:02:17.012Z</updated>
+  <updated>2022-02-06T10:15:01.295Z</updated>
   <id>http://pleasesenior.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>漫威主题的炫酷个人博客系统</title>
+    <link href="http://pleasesenior.com/2022/02/06/bo-ke/"/>
+    <id>http://pleasesenior.com/2022/02/06/bo-ke/</id>
+    <published>2022-02-06T09:25:00.000Z</published>
+    <updated>2022-02-06T10:15:01.295Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;​       </summary>
+        
+      
+    
+    
+    
+    <category term="毕业设计" scheme="http://pleasesenior.com/categories/%E6%AF%95%E4%B8%9A%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://pleasesenior.com/tags/SpringBoot/"/>
+    
+    <category term="Vue" scheme="http://pleasesenior.com/tags/Vue/"/>
+    
+    <category term="个人博客" scheme="http://pleasesenior.com/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>自助售货系统</title>
