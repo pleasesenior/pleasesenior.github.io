@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>宠物医院信息管理系统</title>
+      <link href="/2022/02/07/chong-wu-yi-yuan/"/>
+      <url>/2022/02/07/chong-wu-yi-yuan/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​        现在养宠物的人越来越多了，此时宠物的健康问题也会越来越多，本期分享的宠物医院信息管理系统就是为了解决这些问题的。宠物医院主要包括用户管理、角色管理、宠物分类管理、宠物管理、药品管理、诊断管理、评价管理等模块，包含了多个角色，功能非常丰富，下面我们看下系统的功能演示：</p><div style="position: relative; padding: 30% 45%;"><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?bvid=BV1US4y1o7eM&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0" frameborder="no" scrolling="no"></iframe></div><h2 id="功能设计"><a href="#功能设计" class="headerlink" title="功能设计"></a>功能设计</h2><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/%E5%AE%A0%E7%89%A9%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F.png"></p><h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><ol><li>整体架构：前后端分离项目，前端基于Vue全家桶+ant design vue开发，后端基于SpringBoot框架开发，JDK版本1.8；</li><li>权限管理：基于Spring-Security、Spring-Session 和 Redis实现精细化到按钮级别的分布式权限管理；</li><li>接口风格：接口设计采用restful风格，接口文档基于swagger，每个接口都有详细的接口文档说明；</li><li>数据库：MySQL、mybatis框架</li><li>日志采集：基于slf4j和Log4j2实现系统运行日志采集，基于切面实现系统操作日志采集</li></ol><h2 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h2><p>登录页面</p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207101836501.png"></p><h3 id="dashboard"><a href="#dashboard" class="headerlink" title="dashboard"></a><strong>dashboard</strong></h3><p>首页，这里大家可以自己去修改轮播照片，比如上传一些宠物相关的照片，我这里演示的时候是随便放了4张照片，这个大家是可以自己去修改的。</p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102252223.png"></p><h3 id="个人信息修改"><a href="#个人信息修改" class="headerlink" title="个人信息修改"></a>个人信息修改</h3><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102435946.png"></p><p>可以在基本设置中上传个人头像、修改个人信息</p><p>修改密码</p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220107104122085-20220204154120073.png"></p><h3 id="用户管理"><a href="#用户管理" class="headerlink" title="用户管理"></a><strong>用户管理</strong></h3><p>可以创建用户，默认密码是123456，也可以在登陆页面去主动注册新用户</p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102512684.png"></p><p><strong>注册</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102533303.png"></p><h3 id="角色管理"><a href="#角色管理" class="headerlink" title="角色管理"></a><strong>角色管理</strong></h3><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102603285.png"></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102648977.png"></p><h3 id="宠物分类管理"><a href="#宠物分类管理" class="headerlink" title="宠物分类管理"></a><strong>宠物分类管理</strong></h3><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102707774.png"></p><p><strong>分类详情</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102751231.png"></p><p><strong>点击图片可以放大查看</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207102820501.png"></p><p><strong>导出线索数据</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220206203006000.png"></p><h3 id="宠物信息管理"><a href="#宠物信息管理" class="headerlink" title="宠物信息管理"></a>宠物信息管理</h3><p>每一只宠物都有一条专属的宠物信息记录，包括宠物编号、分类、名称、备注等信息</p><p><strong>宠物信息列表</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103021133.png"></p><p><strong>宠物信息详情</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103043432.png"></p><p><strong>导出数据</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103109267.png"></p><h3 id="药品管理"><a href="#药品管理" class="headerlink" title="药品管理"></a>药品管理</h3><p><strong>药品列表</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103151236.png"></p><p><strong>药品详情</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103225025.png" alt="image-20220207103225025"></p><p><strong>新增药品</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103254642.png"></p><p><strong>导出数据</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103326260.png" alt="image-20220207103326260"></p><h3 id="诊断管理"><a href="#诊断管理" class="headerlink" title="诊断管理"></a>诊断管理</h3><p>宠物诊断时，宠物医生会创建一个“<strong>诊断单</strong>”，里面会填写宠物的相关诊断内容，包括开药清单。宠物主人需要支付诊断单的药费，然后去医院药房去领药。支付完成后，宠物主人可以针对本次诊断记录进行评价，这样整个一个完整的诊断流程就结束了。所有的诊断记录都会留档，相当于是宠物的病历卡，后续这只宠物再来医院就诊时就可以根据宠物名称去搜索，查出该宠物的历史所有诊断病例记录。</p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103413568.png"></p><p><strong>诊断单详情</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207103915585.png"></p><p><strong>评价诊断记录</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207104005003.png"></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207104109770.png"></p><h3 id="评价管理"><a href="#评价管理" class="headerlink" title="评价管理"></a>评价管理</h3><p><strong>评价列表</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207104215959.png"></p><p><strong>导出</strong></p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207121434020.png"></p><h3 id="操作日志管理"><a href="#操作日志管理" class="headerlink" title="操作日志管理"></a>操作日志管理</h3><p>管理员可以通过操作日志来监控整个系统，便于问题排查</p><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207121452957.png"></p><h3 id="登录日志管理"><a href="#登录日志管理" class="headerlink" title="登录日志管理"></a>登录日志管理</h3><p><img src="http://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20220207121511123.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 毕业设计 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> SpringBoot </tag>
+            
+            <tag> Vue </tag>
+            
+            <tag> 宠物医院 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>宠物领养系统</title>
       <link href="/2022/02/06/chong-wu-ling-yang/"/>
       <url>/2022/02/06/chong-wu-ling-yang/</url>
