@@ -5,7 +5,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="keywords" content="毕业设计 计算机 计算机毕业设计 Spring SpringBoot Vue SSM 前后端分离 web系统 Java MySQL 管理系统 论文 毕设 作品 JSP">
-    <meta name="description" content="前言​        毕业设计真的就是demo吗？作为工作前的最后一个校园项目，毕业设计应当尽可能的贴近企业实战，业务不必很复杂，但要做到麻雀虽小五脏俱全。本期学长跟大家一起分享如何开发一个在线选课系统，需求也比较简单。系统初始化后会默认创">
+    <meta name="description" content="
+
+
+
+前言​        毕业设计真的就是demo吗？作为工作前的最后一个校园项目，毕业设计应当尽可能的贴近企业实战，业务不必很复杂，但要做到麻雀虽小五脏俱全。本期学长跟大家一起分享如何开发一个在线选课系统，需求也比较简单。系统初始化后">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -416,18 +420,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​        毕业设计真的就是demo吗？作为工作前的最后一个校园项目，毕业设计应当尽可能的贴近企业实战，业务不必很复杂，但要做到麻雀虽小五脏俱全。本期学长跟大家一起分享如何开发一个在线选课系统，需求也比较简单。系统初始化后会默认创建一个admin超级管理员账号，以及三个初始化角色：</p>
+                <div style="position: relative; padding: 30% 45%;">
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?bvid=BV1vh411J7nq&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0" frameborder="no" scrolling="no"></iframe>
+</div>
+
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>​        毕业设计真的就是demo吗？作为工作前的最后一个校园项目，毕业设计应当尽可能的贴近企业实战，业务不必很复杂，但要做到麻雀虽小五脏俱全。本期学长跟大家一起分享如何开发一个在线选课系统，需求也比较简单。系统初始化后会默认创建一个admin超级管理员账号，以及三个初始化角色：</p>
 <ol>
 <li>超级管理员角色。拥有所有菜单和所有按钮的权限</li>
 <li>教师角色。拥有账号查询、课程模块增删改查、选课记录查询、院系查询、专业查询的权限。</li>
 <li>学生角色。拥有课程查询、报名、退课、院系查询、专业查询的权限。</li>
 </ol>
 <p>超管会默认创建好所有老师和学生的账号，以及创建好所有的院系和专业（为什么不提供注册功能？主要是管理后台往往需要权限分配，你注册了账号你还是得找超管分配权限的，所以注册意义不大），老师则可以创建课程并设置何时报名，当报名开启后，学生可以进行课程报名，在课程报名截止前，学生可以退课并重新选课。具体实现请往下看~~~</p>
-<p>​    （<strong>想要源码的同学请私信我</strong>。这里打个广告，学长多年bat工作经验，常年负责校招和社招面试，有兴趣的同学可以私信我，我可以提供简历辅导和内推~~~）</p>
-<div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?bvid=BV1vh411J7nq&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0" frameborder="no" scrolling="no"></iframe>
-</div>
-
 <h2 id="功能设计"><a href="#功能设计" class="headerlink" title="功能设计"></a>功能设计</h2><p><img src="https://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20210924214722531.png"></p>
 <h3 id="领域模型"><a href="#领域模型" class="headerlink" title="领域模型"></a>领域模型</h3><ul>
 <li><p>DO（DataObject）：与数据库表结构一一对应，通过DAO层向上传输数据源对象</p>
@@ -466,7 +469,6 @@
 <p><img src="https://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20210109202118777.png"></p>
 <p><strong>课程报名</strong></p>
 <p><img src="https://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20210109203605640.png"></p>
-<p><img src="https://gitee.com/pleasesenior/document/raw/markdown-picture/2020/image-20210109203628393.png" alt="image-20210109203628393"></p>
 <p><strong>选课记录</strong></p>
 <p>​        对于一门课，一个人只能报一次。所有人的报名结果可以在选课记录管理菜单中查看。</p>
 <p>在“<strong>所有选课</strong>”tab页，能查到所有人的报名记录</p>
@@ -492,9 +494,6 @@
 <p><img src="https://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20210109205945188-20211001152405093.png"></p>
 <h3 id="权限设计"><a href="#权限设计" class="headerlink" title="权限设计"></a>权限设计</h3><p>​        权限基于security和spring-session实现。权限可以分为认证和授权，认证其实就是登录，用户登录时会进行账号密码的校验，校验成功后会，会把session存入redis中。授权指的是用户是否拥有访问后端资源的权限，每个新用户在创建后都会分配角色，角色其实就是一个权限集合，这里的权限可以理解为访问后端一个个接口（资源）的权限。</p>
 <p>​        这里权限设计的非常灵活，细粒度到按钮级别，比如课程菜单的新增、删除、修改、查询动作，学生可能只有课程的查询权限，无法新增和修改课程，即使通过接口直接访问后端的修改或者新增接口，后端也会返回授权失败错误，因为后端每个需要权限的接口都打了权限标识，只有拥有资源权限用户才能访问。</p>
-<h3 id=""><a href="#" class="headerlink" title=""></a><div style="position: relative; padding: 30% 45%;"></div></h3><iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?bvid=BV1Fq4y1d7Na&amp;page=1&amp;as_wide=1&amp;high_quality=1&amp;danmaku=0" frameborder="no" scrolling="no"></iframe>
-
-
 <p>​        日志采用lombok注解+slf4j+log4j2的实现方案，基于profile实现了多环境的日志配置，因为不同环境的日志打印策略是不一样，比如开发环境我可能需要打印到console控制台，需要debug级别的日志以便于本地开发调试，测试环境可能就需要打印到日志文件里，线上环境可能需要打印到文件的同时将日志发送到kafka然后收集到es中，这样当线上部署了多台机器后我们查日志不用一台一台机器去查日志了，因为都收集到es了，我们只需要登录kibana去搜索，这样就非常方便。这里说到的kafka+es+kibana这样一套日志解决方案也是目前互联网公司比较常用的一套解决方案。如果你动手能力够强，你可以本地搭一套kafka、es、kibana，然后只需要在配置文件中加入几行配置就实现了这么一套企业级的日志解决方案（默认是输出到日志文件）。</p>
 <p>下面是部分关键配置，如果要配置kafka，只需要在<appenders>标签中配置<kafka>配置即可</kafka></appenders></p>
 <pre class="line-numbers language-xml" data-language="xml"><code class="language-xml">    <span class="token prolog">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
