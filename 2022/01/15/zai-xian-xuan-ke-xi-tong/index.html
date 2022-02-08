@@ -389,7 +389,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-02-04
+                    2022-02-08
                 </div>
                 
 
@@ -441,99 +441,7 @@
 <h2 id="技术栈"><a href="#技术栈" class="headerlink" title="技术栈"></a>技术栈</h2><p>前端：vue + element</p>
 <p>后端：jdk1.8 + springboot  + redis + mysql</p>
 <p>权限：security+spring-session</p>
-<h2 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h2><h3 id="表结构设计"><a href="#表结构设计" class="headerlink" title="表结构设计"></a>表结构设计</h3><pre class="line-numbers language-mssql" data-language="mssql"><code class="language-mssql">CREATE TABLE `account` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `passport` varchar(16) NOT NULL COMMENT '账号',
-  `name` varchar(6) NOT NULL COMMENT '名称',
-  `password` varchar(64) NOT NULL COMMENT '密码',
-  `status` int(11) NOT NULL DEFAULT '0' COMMENT '用户状态',
-  `role_id` bigint(20) NOT NULL COMMENT '角色',
-  `email` varchar(32) NOT NULL COMMENT '邮箱',
-  `phone` varchar(16) NOT NULL COMMENT '手机号',
-  `address` varchar(64) DEFAULT NULL COMMENT '地址',
-  `sex` int(11) NOT NULL DEFAULT '0' COMMENT '性别 0：女；1：男',
-  `department_id` bigint(20) NOT NULL COMMENT '院系',
-  `major_id` bigint(20) NOT NULL COMMENT '专业',
-  `description` varchar(128) DEFAULT NULL COMMENT '备注',
-  `last_login_time` bigint(20) DEFAULT NULL COMMENT '最近登录时间',
-  `create_time` bigint(20) NOT NULL DEFAULT '0' COMMENT '创建时间',
-  `update_time` bigint(20) DEFAULT NULL COMMENT '更新时间',
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `passport_UNIQUE` (`passport`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='账号'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE TABLE `role` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `name` varchar(32) NOT NULL COMMENT '角色名称',
-  `description` varchar(128) DEFAULT NULL COMMENT '备注',
-  `authorities` varchar(1024) NOT NULL COMMENT '权限列表',
-  `create_time` bigint(20) NOT NULL DEFAULT '0' COMMENT '创建时间',
-  `update_time` bigint(20) DEFAULT '0' COMMENT '更新时间',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='角色表'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE TABLE `department` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `name` varchar(32) NOT NULL COMMENT '院系名称',
-  `introduction` text COMMENT '简介',
-  `create_time` bigint(20) NOT NULL DEFAULT '0' COMMENT '创建时间',
-  `update_time` bigint(20) DEFAULT NULL COMMENT '更新时间',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='院系'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE TABLE `major` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `name` varchar(32) NOT NULL COMMENT '专业名称',
-  `introduction` text COMMENT '简介',
-  `department_id` bigint(20) NOT NULL COMMENT '院系',
-  `create_time` bigint(20) NOT NULL DEFAULT '0' COMMENT '创建时间',
-  `update_time` bigint(20) DEFAULT NULL COMMENT '更新时间',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='专业'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE TABLE `course` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `name` varchar(64) NOT NULL COMMENT '课程名称',
-  `credit` int(11) NOT NULL COMMENT '学分',
-  `class_time` int(11) NOT NULL COMMENT '课时',
-  `teach_time` varchar(32) NOT NULL COMMENT '上课时间',
-  `classroom` varchar(32) NOT NULL COMMENT '教室',
-  `account_id` bigint(20) NOT NULL COMMENT '老师',
-  `department_id` bigint(20) NOT NULL COMMENT '所属院系',
-  `major_id` bigint(20) NOT NULL COMMENT '所属专业',
-  `type` int(11) NOT NULL COMMENT '类型;1:选修课 2:必修课',
-  `require_type` int(11) NOT NULL COMMENT '选课限制;1:同院系 2:同专业 3:无限制',
-  `available_amount` int(11) NOT NULL COMMENT '剩余人数',
-  `registration_time` bigint(20) NOT NULL COMMENT '报名时间',
-  `registration_close_time` bigint(20) NOT NULL COMMENT '报名截止时间',
-  `introduction` text COMMENT '简介',
-  `create_time` bigint(20) NOT NULL DEFAULT '0' COMMENT '创建时间',
-  `update_time` bigint(20) DEFAULT NULL COMMENT '更新时间',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT= DEFAULT CHARSET=utf8 COMMENT='课程'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE TABLE `course_record` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `course_id` bigint(20) NOT NULL COMMENT '课程',
-  `account_id` bigint(20) NOT NULL COMMENT '学生',
-  `create_time` bigint(20) NOT NULL DEFAULT '0' COMMENT '选课时间',
-  `update_time` bigint(20) DEFAULT NULL COMMENT '更新时间',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8 COMMENT='选课记录'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<pre class="line-numbers language-mysql" data-language="mysql"><code class="language-mysql">CREATE TABLE `sys_log` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `passport` varchar(128) DEFAULT NULL COMMENT '账号',
-  `url` varchar(255) DEFAULT NULL COMMENT '请求URL',
-  `method` varchar(255) DEFAULT NULL COMMENT '请求方法',
-  `params` varchar(2048) DEFAULT NULL COMMENT '请求参数',
-  `ip` varchar(255) DEFAULT NULL COMMENT '请求ip',
-  `cost` bigint(20) DEFAULT NULL COMMENT '请求耗时(单位毫秒)',
-  `create_time` bigint(20) NOT NULL COMMENT '创建时间',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='系统日志'<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-
-<h3 id="接口设计"><a href="#接口设计" class="headerlink" title="接口设计"></a>接口设计</h3><p>​        整个项目接口采用的目前互联网比较流行的restful风格设计，每个接口、每个参数都有详细的文档说明。因为企业中开发必然是团队协作，必然前后端分离的开发模式，你得先把接口定义出来，然后前端可以和后端同步开发。还有一种就是对外提供接口，比如你们隔壁团队也想调用你这个服务的接口，但是你两排期是同一周，这时候你得先把接口定义出来给人家，然后大家同步开发，开发完了之后再进行联调。</p>
+<h2 id="系统设计"><a href="#系统设计" class="headerlink" title="系统设计"></a>系统设计</h2><h3 id="接口设计"><a href="#接口设计" class="headerlink" title="接口设计"></a>接口设计</h3><p>​        整个项目接口采用的目前互联网比较流行的restful风格设计，每个接口、每个参数都有详细的文档说明。因为企业中开发必然是团队协作，必然前后端分离的开发模式，你得先把接口定义出来，然后前端可以和后端同步开发。还有一种就是对外提供接口，比如你们隔壁团队也想调用你这个服务的接口，但是你两排期是同一周，这时候你得先把接口定义出来给人家，然后大家同步开发，开发完了之后再进行联调。</p>
 <p><img src="https://image-1303107966.cos.ap-nanjing.myqcloud.com/image-20210109170942550.png"></p>
 <h3 id="运行效果"><a href="#运行效果" class="headerlink" title="运行效果"></a>运行效果</h3><p><strong>系统登录</strong></p>
 <p><strong>dashboard</strong></p>
